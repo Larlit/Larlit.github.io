@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="icon" href="href/2.jpg" />
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>欢迎来到河南大学</h1>
+    <hr width="770" heigth="400" color="red"/>
+    
+    <form action="">
+        学院:<select name="city">
+            <option value="网工">网工</option>
+            <option value="软工">软工</option>
+        </select>
+        <br />
+
+        <!--checked默认选中-->
+        性别：<label for="i">男</label>
+        <input id="i" type="radio" name="gender" value="0" checked />
+        <label>
+            女<input type="radio" name="gender" value="1" />
+        </label>
+        <br />
+
+        <!--multiple 可以选择多个文件-->
+        个人简介:<input type="file" multiple accept=".exe,.mp4,.pdf,.jpg" />
+        <br />
+        姓名：<input type="text" placeholder="输入姓名" name="username" autocomplete="off" />
+        <br />
+        学号：<input type="text" placeholder="输入学号" />
+        <br />
+        密码：<input type="password" name="密码" maxlength="6" />
+        <br />
+        留言：
+        <textarea name="ly" cols="20" rows="20" placeholder="留言"></textarea>
+        <br />
+        <button disabled>登录</button>
+    </form>
+    
+    
+
+
+   
+
+
+</body>
+</html>
